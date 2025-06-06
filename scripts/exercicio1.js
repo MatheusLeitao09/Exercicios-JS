@@ -71,12 +71,16 @@ console.log(`A lista com o artefato obsoleto ficou: ${inventarioBeta}`);
 
 inventarioBeta.push(`Areia do Tempo", "Terra", 3100`, `Anel de Chronos", "Terra", 4900`, `Anel de Chronos", "Terra", 4900`);
 console.log(`Depois de adicional os três artefatos da Terra, a lista ficou: ${inventarioBeta}`);
-
+console.log('----------------------');
 // Dois artefatos especiais de Kepler foram coletados e adicionados à nave Beta.
 
 inventarioBeta.push('Fragmento Prismático", "Kepler-22b", 6400', 'Núcleo de Plasma", "Kepler-452b", 9100')
-  console.log(`Lista depois dos dois artefatos especiais adicionados no final dela: ${inventarioBeta}`);
-  
+console.log(`Lista depois dos dois artefatos especiais adicionados no final dela: ${inventarioBeta}`);
+console.log('----------------------');
+
 // Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine.
+inventarioBeta.pop() 
+let topo = inventarioBeta.unshift(`Terminal de Dobra", "Alpha Centauri", 10500`)
+console.log(`A lista com o item alfa no topo ficou: ${inventarioBeta}`);
 
 
