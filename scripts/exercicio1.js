@@ -30,8 +30,8 @@ let inventarioAlpha = [
     ["Cristal Ômega", "Andrômeda", 13900]
   ];
   
- inventarioAlpha.pop();
- console.log(`O inventario Alpha após o último elemento removido ficou: ${inventarioAlpha}`);
+inventarioAlpha.pop();
+console.log(`O inventario Alpha após o último elemento removido ficou: ${inventarioAlpha}`);
 console.log('----------------------');
 
 // Um artefato obsoleto foi removido do final da lista Beta após avaliação técnica.
@@ -66,6 +66,7 @@ console.log('----------------------');
 
 inventarioBeta.pop();
 console.log(`A lista com o artefato obsoleto ficou: ${inventarioBeta}`);
+console.log('----------------------');
 
 // Três novos artefatos da Terra foram entregues à nave Alpha. Adicione-os ao final.
 
@@ -83,14 +84,17 @@ console.log('----------------------');
 inventarioAlpha.pop() 
 inventarioAlpha.unshift(`Terminal de Dobra", "Alpha Centauri", 10500`)
 console.log(`A lista com o item alfa no topo ficou: ${inventarioAlpha}`);
+console.log('----------------------');
 
 // Um item da Beta deve ser promovido para o início da lista para estudo prioritário.
 
 inventarioBeta.pop() 
 inventarioBeta.unshift(`Terminal de Dobra", "Alpha Centauri", 10500`)
 console.log(`A lista com o item alfa no topo ficou: ${inventarioBeta}`);
-
+console.log('----------------------');
   
 // Um artefato incorreto foi inserido no topo da Alpha por engano. Ele deve ser excluído.
 
-
+inventarioAlpha.shift();
+console.log(`A lista com o primeiro elemento removido ficou: ${inventarioAlpha} `);
+console.log('----------------------');
