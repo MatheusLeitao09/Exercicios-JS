@@ -1,3 +1,6 @@
+// Um item duplicado foi detectado no final do inventário Alpha. Remova a cópia.
+
+
 let inventarioAlpha = [
     ["Cristal Rubion", "Plutão", 4500],
     ["Cápsula de Éter", "Júpiter", 7800],
@@ -29,5 +32,5 @@ let inventarioAlpha = [
   
  inventarioAlpha.pop();
  console.log(`O inventario Alpha após o último elemento removido ficou: ${inventarioAlpha}`);
- 
+
  
