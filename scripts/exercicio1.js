@@ -107,5 +107,9 @@ console.log('----------------------');
 
 // Verifique se a “Relíquia de Zordon” está presente no inventário Beta. (nível hard)
 
-console.log(`A playlist incluiu “Relíquia de Zordon”? ${inventarioBeta.includes("Relíquia de Zordon")}`);
+console.log(`A lista possui “Relíquia de Zordon”? ${inventarioBeta.includes("Relíquia de Zordon")}`);
 console.log('----------------------');
+
+// Verifique se o item “Nanofibra Luminosa” ainda está disponível na Alpha. (nível hard)
+
+
