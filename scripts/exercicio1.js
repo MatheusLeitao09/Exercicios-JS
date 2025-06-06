@@ -39,7 +39,7 @@ console.log('----------------------');
  let inventarioBeta = [
     ["Lâmina Solar", "Mercúrio", 6700],
     ["Cometa Engarrafado", "Netuno", 7600],
-    ["Relíquia de Zordon", "Elysium", 25000],
+    ["Relíquia de Zordon", "Elysiu", 25000],
     ["Pó Lunar", "Lua", 2900],
     ["Nevoeiro Encapsulado", "Júpiter", 3800],
     ["Chip de Matéria", "Ceres", 4100],
