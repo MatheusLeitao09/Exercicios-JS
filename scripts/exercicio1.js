@@ -112,4 +112,5 @@ console.log('----------------------');
 
 // Verifique se o item “Nanofibra Luminosa” ainda está disponível na Alpha. (nível hard)
 
-
+console.log(`A lista possui “Nanofibra Luminosa”? ${inventarioAlpha.includes("Nanofibra Luminosa")}`);
+console.log('----------------------');
