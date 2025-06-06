@@ -160,3 +160,6 @@ console.log('----------------------');
 
 // Junte os cinco primeiros itens de cada nave em uma nova vitrine de destaques.
 
+let lista1 = inventarioBeta.splice(0, 5)
+let lista2 = inventarioAlpha.splice(0, 5)
+let inventarioJunto2 = lista1.concat(lista2)
