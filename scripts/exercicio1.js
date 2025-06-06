@@ -78,13 +78,7 @@ inventarioBeta.push('Fragmento Prismático", "Kepler-22b", 6400', 'Núcleo de Pl
 console.log(`Lista depois dos dois artefatos especiais adicionados no final dela: ${inventarioBeta}`);
 console.log('----------------------');
 
-// Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine.
-
-inventarioBeta.pop() 
-inventarioBeta.unshift(`Terminal de Dobra", "Alpha Centauri", 10500`)
-console.log(`A lista com o item alfa no topo ficou: ${inventarioBeta}`);
-
-// Um item da Beta deve ser promovido para o início da lista para estudo prioritário.
+// Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine
 
 
 
