@@ -104,3 +104,5 @@ console.log('----------------------');
 inventarioBeta.shift();
 console.log(`A lista com o primeiro elemento removido ficou: ${inventarioBeta} `);
 console.log('----------------------');
+
+// Verifique se a “Relíquia de Zordon” está presente no inventário Beta. (nível hard)
