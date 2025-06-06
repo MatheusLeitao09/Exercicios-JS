@@ -91,3 +91,6 @@ inventarioBeta.unshift(`Terminal de Dobra", "Alpha Centauri", 10500`)
 console.log(`A lista com o item alfa no topo ficou: ${inventarioBeta}`);
 
   
+// Um artefato incorreto foi inserido no topo da Alpha por engano. Ele deve ser excluído.
+
+
