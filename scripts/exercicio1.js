@@ -74,4 +74,6 @@ console.log(`Depois de adicional os três artefatos da Terra, a lista ficou: ${i
 
 // Dois artefatos especiais de Kepler foram coletados e adicionados à nave Beta.
 
-
+inventarioBeta.push('Fragmento Prismático", "Kepler-22b", 6400', 'Núcleo de Plasma", "Kepler-452b", 9100')
+  console.log(`Lista depois dos dois artefatos especiais adicionados no final dela: ${inventarioBeta}`);
+  
