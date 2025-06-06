@@ -139,3 +139,6 @@ console.log('----------------------');
 
 let itens10 = inventarioAlpha.splice(-10)
 console.log(itens10);
+console.log('----------------------');
+
+// O quinto item da Alpha foi substituído por uma versão mais moderna. Atualize.
