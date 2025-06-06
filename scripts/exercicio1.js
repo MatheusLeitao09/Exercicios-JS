@@ -125,14 +125,14 @@ console.log('----------------------');
 
 // Crie um texto com os nomes dos 10 primeiros itens da Beta, separados por vírgulas.
 
-let primerosItens = inventarioBeta.splice(0, 10).join(', ')
-console.log(primerosItens);
+let primeirosItens = inventarioBeta.splice(0, 10).join(', ')
+console.log(primeirosItens);
 console.log('----------------------');
 
 // Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
-
-let primeirosItens2 = inventarioAlpha.splice(0, 5).join(', ')
-console.log(primeirosItens2);
+let itens2 = inventarioBeta.splice(0, 5).join(', ')
+console.log(itens2);
 console.log('----------------------');
 
 
+// Separe os 10 últimos itens do inventário Alpha para estudo temporal.
