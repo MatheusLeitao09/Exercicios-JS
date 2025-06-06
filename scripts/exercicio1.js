@@ -148,3 +148,7 @@ console.log(inventarioAlpha);
 console.log('----------------------');
 
 // Dois itens no meio do inventário Beta foram contaminados e precisam ser removidos.
+ inventarioBeta.splice(2, 2)
+ console.log(inventarioBeta);
+ console.log('----------------------');
+ 
