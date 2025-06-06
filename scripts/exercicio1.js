@@ -148,7 +148,13 @@ console.log(inventarioAlpha);
 console.log('----------------------');
 
 // Dois itens no meio do inventário Beta foram contaminados e precisam ser removidos.
- inventarioBeta.splice(2, 2)
- console.log(inventarioBeta);
- console.log('----------------------');
- 
+inventarioBeta.splice(2, 2)
+console.log(inventarioBeta);
+console.log('----------------------');
+
+ // Unifique os inventários Alpha e Beta em uma única estrutura.
+
+let inventarioJunto = inventarioAlpha.concat(inventarioBeta)
+console.log(`Os dois inventários juntos ficou: ${inventarioJunto}`);
+console.log('----------------------');
+
