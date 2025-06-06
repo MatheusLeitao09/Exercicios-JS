@@ -90,7 +90,7 @@ console.log('----------------------');
 
 inventarioBeta.pop() 
 inventarioBeta.unshift(`Terminal de Dobra", "Alpha Centauri", 10500`)
-console.log(`A lista com o item alfa no topo ficou: ${inventarioBeta}`);
+console.log(`A lista com o item beta no topo ficou: ${inventarioBeta}`);
 console.log('----------------------');
   
 // Um artefato incorreto foi inserido no topo da Alpha por engano. Ele deve ser excluído.
@@ -100,3 +100,7 @@ console.log(`A lista com o primeiro elemento removido ficou: ${inventarioAlpha} 
 console.log('----------------------');
 
 // O primeiro item da Beta pertence a um museu e deve ser removido.
+
+inventarioBeta.shift();
+console.log(`A lista com o primeiro elemento removido ficou: ${inventarioBeta} `);
+console.log('----------------------');
