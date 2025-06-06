@@ -106,13 +106,16 @@ console.log(`A lista com o primeiro elemento removido ficou: ${inventarioBeta} `
 console.log('----------------------');
 
 // Verifique se a “Relíquia de Zordon” está presente no inventário Beta. (nível hard)
-
-console.log(`A lista possui “Relíquia de Zordon”? ${inventarioBeta.includes("Relíquia de Zordon")}`);
+const nomesItens = inventarioBeta.map((item) => item[0]);
+const reliquiaExiste = nomesItens.includes("Relíquia de Zordon")
+console.table(reliquiaExiste)
 console.log('----------------------');
 
 // Verifique se o item “Nanofibra Luminosa” ainda está disponível na Alpha. (nível hard)
 
-console.log(`A lista possui “Nanofibra Luminosa”? ${inventarioAlpha.includes("Nanofibra Luminosa")}`);
+const nomesItens2 = inventarioAlpha.map((item) => item[0]);
+const nanofibraExiste = nomesItens2.includes("Nanofibra Luminosa");
+console.log(nanofibraExiste);
 console.log('----------------------');
 
 // Gere uma string com todos os planetas do inventário Alpha, separados por um delimitador.
@@ -121,3 +124,11 @@ console.log(`String dos planetas do inventário Alpha: ${inventarioAlpha.join(',
 console.log('----------------------');
 
 // Crie um texto com os nomes dos 10 primeiros itens da Beta, separados por vírgulas.
+
+let primerosItens = inventarioBeta.splice(0, 10).join(', ')
+console.log(primerosItens);
+console.log('----------------------');
+
+// Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
+
+
