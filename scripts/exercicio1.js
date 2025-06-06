@@ -114,3 +114,5 @@ console.log('----------------------');
 
 console.log(`A lista possui “Nanofibra Luminosa”? ${inventarioAlpha.includes("Nanofibra Luminosa")}`);
 console.log('----------------------');
+
+// Gere uma string com todos os planetas do inventário Alpha, separados por um delimitador.
