@@ -106,3 +106,6 @@ console.log(`A lista com o primeiro elemento removido ficou: ${inventarioBeta} `
 console.log('----------------------');
 
 // Verifique se a “Relíquia de Zordon” está presente no inventário Beta. (nível hard)
+
+console.log(`A playlist incluiu “Relíquia de Zordon”? ${inventarioBeta.includes("Relíquia de Zordon")}`);
+console.log('----------------------');
