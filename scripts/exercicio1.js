@@ -157,5 +157,6 @@ console.log('----------------------');
  let inventarioJunto = inventarioAlpha.concat(inventarioBeta)
  console.log(`Os dois inventários juntos ficou: ${inventarioJunto}`);
  console.log('----------------------');
- 
+
+// Junte os cinco primeiros itens de cada nave em uma nova vitrine de destaques.
 
