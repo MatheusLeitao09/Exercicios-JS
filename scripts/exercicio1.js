@@ -79,8 +79,12 @@ console.log(`Lista depois dos dois artefatos especiais adicionados no final dela
 console.log('----------------------');
 
 // Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine.
+
 inventarioBeta.pop() 
-let topo = inventarioBeta.unshift(`Terminal de Dobra", "Alpha Centauri", 10500`)
+inventarioBeta.unshift(`Terminal de Dobra", "Alpha Centauri", 10500`)
 console.log(`A lista com o item alfa no topo ficou: ${inventarioBeta}`);
+
+// Um item da Beta deve ser promovido para o início da lista para estudo prioritário.
+
 
 
