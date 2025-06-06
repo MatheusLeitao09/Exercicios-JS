@@ -98,3 +98,5 @@ console.log('----------------------');
 inventarioAlpha.shift();
 console.log(`A lista com o primeiro elemento removido ficou: ${inventarioAlpha} `);
 console.log('----------------------');
+
+// O primeiro item da Beta pertence a um museu e deve ser removido.
