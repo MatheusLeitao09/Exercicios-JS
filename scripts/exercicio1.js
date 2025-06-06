@@ -146,3 +146,5 @@ console.log('----------------------');
 inventarioAlpha[4] = undefined
 console.log(inventarioAlpha);
 console.log('----------------------');
+
+// Dois itens no meio do inventário Beta foram contaminados e precisam ser removidos.
