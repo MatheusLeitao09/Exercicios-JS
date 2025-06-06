@@ -116,3 +116,6 @@ console.log(`A lista possui “Nanofibra Luminosa”? ${inventarioAlpha.includes
 console.log('----------------------');
 
 // Gere uma string com todos os planetas do inventário Alpha, separados por um delimitador.
+
+console.log(`String dos planetas do inventário Alpha: ${inventarioAlpha.join(', ')}`);
+console.log('----------------------');
