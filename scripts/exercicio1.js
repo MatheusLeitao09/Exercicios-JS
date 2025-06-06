@@ -119,3 +119,5 @@ console.log('----------------------');
 
 console.log(`String dos planetas do inventário Alpha: ${inventarioAlpha.join(', ')}`);
 console.log('----------------------');
+
+// Crie um texto com os nomes dos 10 primeiros itens da Beta, separados por vírgulas.
