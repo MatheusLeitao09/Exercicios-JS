@@ -86,5 +86,8 @@ console.log(`A lista com o item alfa no topo ficou: ${inventarioAlpha}`);
 
 // Um item da Beta deve ser promovido para o início da lista para estudo prioritário.
 
+inventarioBeta.pop() 
+inventarioBeta.unshift(`Terminal de Dobra", "Alpha Centauri", 10500`)
+console.log(`A lista com o item alfa no topo ficou: ${inventarioBeta}`);
 
   
