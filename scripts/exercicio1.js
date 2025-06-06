@@ -67,5 +67,6 @@ console.log('----------------------');
 inventarioBeta.pop();
 console.log(`A lista com o artefato obsoleto ficou: ${inventarioBeta}`);
 
+// Três novos artefatos da Terra foram entregues à nave Alpha. Adicione-os ao final.
 
  
