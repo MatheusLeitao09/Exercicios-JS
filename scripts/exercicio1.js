@@ -80,8 +80,8 @@ console.log('----------------------');
 
 // Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine
 
-inventarioalpha.pop() 
+inventarioAlpha.pop() 
 inventarioAlpha.unshift(`Terminal de Dobra", "Alpha Centauri", 10500`)
-console.log(`A lista com o item alfa no topo ficou: ${inventarioBeta}`);
+console.log(`A lista com o item alfa no topo ficou: ${inventarioAlpha}`);
 
 
