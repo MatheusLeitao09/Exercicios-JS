@@ -154,7 +154,8 @@ console.log('----------------------');
 
  // Unifique os inventários Alpha e Beta em uma única estrutura.
 
-let inventarioJunto = inventarioAlpha.concat(inventarioBeta)
-console.log(`Os dois inventários juntos ficou: ${inventarioJunto}`);
-console.log('----------------------');
+ let inventarioJunto = inventarioAlpha.concat(inventarioBeta)
+ console.log(`Os dois inventários juntos ficou: ${inventarioJunto}`);
+ console.log('----------------------');
+ 
 
