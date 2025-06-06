@@ -131,4 +131,8 @@ console.log('----------------------');
 
 // Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
 
+let primeirosItens2 = inventarioAlpha.splice(0, 5).join(', ')
+console.log(primeirosItens2);
+console.log('----------------------');
+
 
