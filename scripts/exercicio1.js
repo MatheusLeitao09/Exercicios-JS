@@ -136,3 +136,6 @@ console.log('----------------------');
 
 
 // Separe os 10 últimos itens do inventário Alpha para estudo temporal.
+
+let itens10 = inventarioAlpha.splice(-10)
+console.log(itens10);
