@@ -69,4 +69,9 @@ console.log(`A lista com o artefato obsoleto ficou: ${inventarioBeta}`);
 
 // Três novos artefatos da Terra foram entregues à nave Alpha. Adicione-os ao final.
 
- 
+inventarioBeta.push(`Areia do Tempo", "Terra", 3100`, `Anel de Chronos", "Terra", 4900`, `Anel de Chronos", "Terra", 4900`);
+console.log(`Depois de adicional os três artefatos da Terra, a lista ficou: ${inventarioBeta}`);
+
+// Dois artefatos especiais de Kepler foram coletados e adicionados à nave Beta.
+
+
